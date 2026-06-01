@@ -1,0 +1,45 @@
+{
+  "build": {
+    "distDir": "../src",
+    "devPath": "../src",
+    "beforeDevCommand": "",
+    "beforeBuildCommand": ""
+  },
+  "package": {
+    "productName": "SINALVERDE_IA",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "2026 LETHUS SOVEREIGN SYSTEMS",
+      "externalBin": [],
+      "icon": [],
+      "identifier": "com.sinalverde.sovereign",
+      "longDescription": "Sovereign Command Center for Wildlife Monitoring",
+      "resources": [],
+      "shortDescription": "Wildlife AI Monitoring",
+      "targets": "all"
+    },
+    "security": {
+      "csp": null
+    },
+    "window": [
+      {
+        "fullscreen": false,
+        "height": 900,
+        "resizable": true,
+        "title": "SINALVERDE.IA | SOVEREIGN COMMAND",
+        "width": 1400
+      }
+    ]
+  }
+}
